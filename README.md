@@ -46,7 +46,7 @@ npm start
 
 [Recharts](http://recharts.org/#/en-US/)
 
-[React Table][https://react-table.js.org/#/story/readme]
+[React Table](https://react-table.js.org/#/story/readme)
 
 Data used: [Abuse.ch Ransomware Tracker](https://ransomwaretracker.abuse.ch/tracker/)
 
