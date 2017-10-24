@@ -11,7 +11,7 @@ class App extends Component {
           <img src="../../res/logo.png" alt="logo" />
           <h1 className="App-title">A Ransomeware Visualizer</h1>
         </header>
-        <div className="mdc-layout-grid">
+        <div className="mdc-layout-grid App">
             <VisualsContainer />
         </div>
         <script>window.mdc.autoInit()</script>
