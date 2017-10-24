@@ -4,7 +4,6 @@ var axios = require('axios');
 const csv = require('csvtojson')
 var FeedUtils = require('../FeedUtils')
 var HashMap = require('hashmap');
-var fetch = require('node-fetch');
 var topCountryList;
 var topThreatList;
 var topMalwareList;

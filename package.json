@@ -24,12 +24,12 @@
     "recharts": "^1.0.0-alpha.6"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://mysterious-ridge-67938.herokuapp.com/",
   "devDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2"
