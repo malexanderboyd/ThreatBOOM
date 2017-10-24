@@ -38,16 +38,16 @@ npm start
 ## Resources
 
 
-(react-tooltip)[https://www.npmjs.com/package/react-tooltip]
+[react-tooltip](https://www.npmjs.com/package/react-tooltip)
 
-(react-simple-maps)[https://github.com/zcreativelabs/react-simple-maps]
+[react-simple-maps](https://github.com/zcreativelabs/react-simple-maps)
 
-(react-svg-piechart)[https://github.com/xuopled/react-svg-piechart]
+[react-svg-piechart][https://github.com/xuopled/react-svg-piechart]
 
-(Recharts)[http://recharts.org/#/en-US/]
+[Recharts][http://recharts.org/#/en-US/]
 
-(React Table)[https://react-table.js.org/#/story/readme]
+[React Table][https://react-table.js.org/#/story/readme]
 
-Data used: (Abuse.ch Ransomware Tracker)[https://ransomwaretracker.abuse.ch/tracker/]
+Data used: [Abuse.ch Ransomware Tracker](https://ransomwaretracker.abuse.ch/tracker/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
