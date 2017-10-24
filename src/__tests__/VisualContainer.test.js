@@ -4,7 +4,7 @@ import App from '../App';
 import fetch from 'isomorphic-fetch';
 
 
-const serverURL = "http://localhost:3001"
+const serverURL = "https://mysterious-ridge-67938.herokuapp.com/"
 
 
 describe('fetch() feed data using Promises', () => {
