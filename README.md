@@ -42,9 +42,9 @@ npm start
 
 [react-simple-maps](https://github.com/zcreativelabs/react-simple-maps)
 
-[react-svg-piechart][https://github.com/xuopled/react-svg-piechart]
+[react-svg-piechart](https://github.com/xuopled/react-svg-piechart)
 
-[Recharts][http://recharts.org/#/en-US/]
+[Recharts](http://recharts.org/#/en-US/)
 
 [React Table][https://react-table.js.org/#/story/readme]
 
