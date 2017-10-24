@@ -7,8 +7,13 @@ Threatboom uses [React](https://reactjs.org/) for it's front-end & Node.js ([Exp
 
 [Heroku](https://gentle-tundra-93966.herokuapp.com/)
 
+## How to Start
 
-
+```
+git clone https://github.com/malexanderboyd/ThreatBOOM.git
+npm install
+npm start
+```
 
 
 
