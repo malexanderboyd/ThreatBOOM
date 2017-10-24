@@ -9,9 +9,9 @@ The backend can be located in a different [branch](https://github.com/malexander
 
 [Heroku](https://gentle-tundra-93966.herokuapp.com/)
 
-## How to Start 
+# How to Start 
 
-# (Easy Version)
+## (Easy Version)
 
 ```
 git clone https://github.com/malexanderboyd/ThreatBOOM.git
@@ -19,12 +19,16 @@ cd threatboom
 npm install
 npm start
 ```
-# (Local Backend Setup)
+
+
+## (Local Backend Setup)
 
 ```
 git clone -b withBackend https://github.com/malexanderboyd/ThreatBOOM.git
 cd threatboom
+npm install
 cd threatboom-backend
+npm install
 npm start
 
 (open another terminal)
