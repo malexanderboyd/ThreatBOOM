@@ -11,6 +11,7 @@ Threatboom uses [React](https://reactjs.org/) for it's front-end & Node.js ([Exp
 
 ```
 git clone https://github.com/malexanderboyd/ThreatBOOM.git
+cd threatboom
 npm install
 npm start
 ```

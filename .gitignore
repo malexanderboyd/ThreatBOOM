@@ -9,7 +9,7 @@
 # production
 /build
 
-/threatboom-backend/node_modules
+/threatboom-backend
 
 # misc
 .DS_Store
