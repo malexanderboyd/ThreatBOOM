@@ -15,13 +15,8 @@ const wrapperStyles = {
 
 class ThreatsBlurb extends Component {
 
-    constructor(props) {
-        super(props)
-        this.state = {
-            threats: [],
-            expandedSector: null,
-            total: 0
-        }
+    constructor() {
+        super()
     }
 
 

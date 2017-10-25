@@ -4,7 +4,7 @@ import App from '../App';
 import fetch from 'isomorphic-fetch';
 
 
-const serverURL = "https://mysterious-ridge-67938.herokuapp.com/"
+const serverURL = "https://mysterious-ridge-67938.herokuapp.com"
 
 
 describe('fetch() feed data using Promises', () => {
@@ -24,14 +24,17 @@ describe('fetch() feed data using Promises', () => {
               expect(res.country).toBeDefined()
             })
             .catch( (error) => {
-              fail('Couldn\'t parse response into json');
+              console.log(error);
+              console.log(error.message);
+              fail(error + error.message);
             })
       })
       .catch( (error) => {
+        console.log(error);
         fail('Couldn\'t connect to server');
       })
 
-  })
+  });
 
 
 })

@@ -17,7 +17,7 @@ const marginStyle = {
     margin: "15px"
 }
 
-const mdcStyle = "mdc-button mdc-button--raised"
+const mdcStyle = "mdc-button mdc-button--raised toggleBtn"
 
 class RansomwareFeed extends Component {
 
@@ -49,7 +49,9 @@ class RansomwareFeed extends Component {
 
     render() {
 
-        if(this.state.feed.length === 0 || this.state.countries.length === 0)
+        if(this.state.feed === undefined || this.state.countries === undefined ||
+           this.state.feed.length === 0 || 
+           this.state.countries.length === 0)
             return null
 
         const showTable = this.state.isVisible;

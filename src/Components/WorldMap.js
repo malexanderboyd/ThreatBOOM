@@ -9,8 +9,8 @@ import {
 } from "react-simple-maps"
 import { scaleLinear } from 'd3-scale'
 import ReactTooltip from "react-tooltip"
-const mdcStyle = "mdc-button mdc-button--stroked"
-
+const mdcStyleZoomIn = "mdc-button mdc-button--stroked zoomIn"
+const mdcStyleZoomOut = "mdc-button mdc-button--stroked zoomOut"
 const wrapperStyles = {
   width: "100%",
   maxWidth: 980,
@@ -66,7 +66,7 @@ class WorldMap extends Component {
 
   render() {
 
-    if(this.state.countries.length === 0)
+    if(this.state.countries === undefined || this.state.countries.length === 0)
         return null
 
 
@@ -151,8 +151,8 @@ class WorldMap extends Component {
           </ComposableMap>
 
           <ReactTooltip />
-           <button style={zoomStyle} className={mdcStyle} onClick={this.handleZoomIn}>{"Zoom in"}</button>
-          <button style={zoomStyle} className={mdcStyle} onClick={this.handleZoomOut}>{"Zoom out"}</button>
+           <button style={zoomStyle} className={mdcStyleZoomIn} onClick={this.handleZoomIn}>{"Zoom in"}</button>
+          <button style={zoomStyle} className={mdcStyleZoomOut} onClick={this.handleZoomOut}>{"Zoom out"}</button>
         </div>
     )
   }

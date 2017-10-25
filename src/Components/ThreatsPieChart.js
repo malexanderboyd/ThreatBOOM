@@ -24,6 +24,7 @@ class ThreatsPieChart extends Component {
         let threats = this.props.threats
         let formatData = []
         let newTotal = 0;
+    if(threats !== undefined && threats.length > 0) {
         threats.forEach((item) => {
             formatData.push(
                 {
@@ -36,6 +37,7 @@ class ThreatsPieChart extends Component {
         })
         this.setState({ threats: formatData })
         this.setState({ total: newTotal })
+    }
     }
 
 handleMouseEnterOnSector(sector) {
@@ -52,7 +54,7 @@ render() {
     return (
         <div className="mdc-card">
             <div className="mdc-card__media-item autoSize">
-                <div style={wrapperStyles}>
+                <div className="piechartHolder" style={wrapperStyles}>
                     <PieChart
                         data={this.state.threats}
                         expandedSector={this.state.expandedSector}
