@@ -8,6 +8,8 @@ The backend can be located in a different [branch](https://github.com/malexander
 
 
 [Heroku](https://gentle-tundra-93966.herokuapp.com/)
+[TravisCI](https://travis-ci.org/malexanderboyd/ThreatBOOM)
+[![Coverage Status](https://coveralls.io/repos/github/malexanderboyd/ThreatBOOM/badge.svg?branch=master)](https://coveralls.io/github/malexanderboyd/ThreatBOOM?branch=master)
 
 ## How to Start
 
@@ -37,6 +39,8 @@ npm start
 
 ## Resources
 
+
+[Enzyme](https://github.com/airbnb/enzyme)
 
 [react-tooltip](https://www.npmjs.com/package/react-tooltip)
 
