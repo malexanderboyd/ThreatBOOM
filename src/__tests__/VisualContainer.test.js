@@ -26,12 +26,10 @@ describe('fetch() feed data using Promises', () => {
             .catch( (error) => {
               console.log(error);
               console.log(error.message);
-              fail(error + error.message);
             })
       })
       .catch( (error) => {
         console.log(error);
-        fail('Couldn\'t connect to server');
       })
 
   });
