@@ -9,7 +9,6 @@
 # production
 /build
 
-/threatboom-backend
 
 # misc
 .DS_Store
