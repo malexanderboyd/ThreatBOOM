@@ -19,6 +19,8 @@ class VisualsContainer extends Component {
     }
 
     componentDidMount() {
+        let feedProps = this.props.feed
+        if(feedProps === undefined) {
         fetch('/feed')
             .then(res => res.json())
             .then((data) => {
@@ -30,7 +32,15 @@ class VisualsContainer extends Component {
                     threats: data.threat
                 })
             }
-            })
+        })
+        } else {
+            this.setState({
+                    feed: feedProps.feed,
+                    countries: feedProps.country,
+                    malware: feedProps.malware,
+                    threats: feedProps.threat
+                })
+        }
     }
 
 
