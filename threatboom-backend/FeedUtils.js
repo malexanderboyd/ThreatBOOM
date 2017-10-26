@@ -79,7 +79,7 @@ module.exports = {
 
             return jsonResult;
         }
-        return new HashMap();
+        return null
     }
 }
 

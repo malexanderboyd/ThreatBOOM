@@ -41,8 +41,6 @@ Please give the backend time to wake up (heroku) on first start up, other refres
 ## Resources
 
 
-[Enzyme](https://github.com/airbnb/enzyme)
-
 [react-tooltip](https://www.npmjs.com/package/react-tooltip)
 
 [react-simple-maps](https://github.com/zcreativelabs/react-simple-maps)
@@ -52,6 +50,10 @@ Please give the backend time to wake up (heroku) on first start up, other refres
 [Recharts](http://recharts.org/#/en-US/)
 
 [React Table](https://react-table.js.org/#/story/readme)
+
+[SuperTest](https://github.com/visionmedia/supertest) (Integration Testing)
+
+[Enzyme](https://github.com/airbnb/enzyme) (Unit Testing)
 
 Data used: [Abuse.ch Ransomware Tracker](https://ransomwaretracker.abuse.ch/tracker/)
 
