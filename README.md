@@ -6,7 +6,7 @@ With ransomware on the rise, visualizing the most popular types, where they are 
 
 Threatboom uses [React](https://reactjs.org/) for it's front-end & Node.js ([Express](https://expressjs.com/)) for the backend. 
 
-The backend setup instructions for local setup can be located in a different [branch](https://github.com/malexanderboyd/ThreatBOOM/threatboom-backend), this master branch is purely the front-end setup.
+The backend setup instructions for local setup can be located in a different [branch](https://github.com/malexanderboyd/ThreatBOOM/tree/withBackend), this master branch is purely the front-end setup.
 
 
 [Heroku Version](https://gentle-tundra-93966.herokuapp.com/)
