@@ -34,11 +34,13 @@ class WorldMap extends Component {
     super(props)
     this.state = {
       countries: [],
+      storedCountries: [],
       zoom: 1
     }
     this.handleZoomIn = this.handleZoomIn.bind(this)
     this.handleZoomOut = this.handleZoomOut.bind(this)
     this.handleCountryClick = this.handleCountryClick.bind(this)
+     this.handleSearch = this.handleSearch.bind(this)
   }
 
   handleZoomIn() {
@@ -55,7 +57,8 @@ class WorldMap extends Component {
   componentDidMount() {
     let ctry = this.props.countries
     this.setState({
-      countries: ctry
+      countries: ctry,
+      storedCountries: ctry
     })
   }
 
@@ -63,16 +66,46 @@ class WorldMap extends Component {
     ReactTooltip.show(this.refs.count)
   }
 
+      handleSearch(event) {
+        let searchTerm = event.target.value.toLowerCase();
+        if (searchTerm !== undefined && searchTerm !== "") {
+            this.setState({
+                countries: this.state.storedCountries.filter((item) => {
+                    return (
+                        (item.value !== undefined && item.value.toLowerCase().includes(searchTerm)) ||
+                        (item.count !== undefined && (item.count+'').indexOf(searchTerm) > -1)
+                    )
+                })
+            })
+            console.log(this.state.countries);
+        } else {
+            this.resetSearch()
+        }
+    }
+
+    resetSearch() {
+        this.setState({ countries: this.state.storedCountries })
+    }
+
 
   render() {
 
-    if(this.state.countries === undefined || this.state.countries.length === 0)
+    if(this.state.countries === undefined && this.state.storedCountries === undefined)
         return null
 
 
     return (
         <div style={wrapperStyles}>
           <h1 className="mdc-typography--headline">Top 10 Countries Hosting Ransomware <span className="mdc-typography--caption">(Country Code - Site Count)</span></h1>
+                <label htmlFor="textfield-no-js">Search: </label>
+                <div className="mdc-textfield">
+                    <input type="text" id="textfield-no-js"
+                        className="mdc-textfield__input longText"
+                        placeholder="Country Code, Count"
+                        onChange={this.handleSearch} />
+                    <div className="mdc-textfield__bottom-line"></div>
+                </div>
+
           <ComposableMap
             projectionConfig={{ scale: 205 }}
             width={980}
