@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/malexanderboyd/ThreatBOOM.svg?branch=master)](https://travis-ci.org/malexanderboyd/ThreatBOOM)
-
 ## :boom: ThreatBoom :boom:
 
 An visualization tool for ransomware.
