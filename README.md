@@ -1,5 +1,7 @@
 ## :boom: ThreatBoom :boom:
 
+## Warning, the dependencies in this project are very out of date, and constantly trigger github warnings. Feel free to PR fixes, but currently this project is unmaintained.
+
 An visualization tool for ransomware.
 
 With ransomware on the rise, visualizing the most popular types, where they are coming from, and more can help teach users about ransomware.
