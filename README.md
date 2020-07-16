@@ -3,7 +3,7 @@
 
 [2020 UPDATE]
 ==============
-The ransomware tracker that was used to build the visualizer shut down in December 2020. 
+The ransomware tracker that was used to build the visualizer shut down in December 2019.
 
 This project could be easily hooked up to another data feed.
 -----
