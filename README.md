@@ -1,6 +1,13 @@
 ## :boom: ThreatBoom :boom:
 
 
+[2020 UPDATE]
+==============
+The ransomware tracker that was used to build the visualizer shut down in December 2020. 
+
+This project could be easily hooked up to another data feed.
+-----
+
 An visualization tool for ransomware.
 
 With ransomware on the rise, visualizing the most popular types, where they are coming from, and more can help teach users about ransomware.
