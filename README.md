@@ -1,11 +1,11 @@
 ## :boom: ThreatBoom :boom:
 
 
-[2020 UPDATE]
+READ ME FIRST
 ==============
 The ransomware tracker that was used to build the visualizer shut down in December 2019.
 
-This project could be easily hooked up to another data feed.
+This project could be easily hooked up to another data feed. Also, this project is left intentionally vulnerable to aid in testing security products
 -----
 
 An visualization tool for ransomware.
