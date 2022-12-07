@@ -13,7 +13,7 @@
     "cookie-parser": "~1.4.3",
     "csvtojson": "^1.1.9",
     "debug": "~2.6.9",
-    "express": "~4.15.5",
+    "express": "~4.17.3",
     "hashmap": "2.3.0",
     "jade": "~1.11.0",
     "mocha": "^4.0.1",
